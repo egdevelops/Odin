@@ -1,5 +1,5 @@
 # Odin
-<h1>Full Stack Track</h1>:<br>
+<h1>Full Stack Track</h1>
 <ul>
   <li>HTML</li>
   <li>CSS</li>
