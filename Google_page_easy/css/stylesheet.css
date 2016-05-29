@@ -1,0 +1,94 @@
+body {
+  font-family: arial, sans-serif;
+  font-size: 15px;
+}
+
+/* Navbar with linked icons */
+
+ul {
+  text-align: right;
+}
+
+li {
+  display: inline;
+  margin: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#Ermias {
+  color: #848482;
+}
+
+/*Icon Images for Navbar*/
+
+#account {
+  border-radius: 50%;
+}
+
+#notifications_bell:hover {
+  opacity: .5;
+}
+
+#google_apps:hover {
+  opacity: .5;
+}
+
+
+/* Main Section */
+
+.googlelogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 200 0 -125 0;
+}
+
+/* "Switzerland" sublogo */
+
+#sub-logo {
+  color: #4285f4;
+  font-size: 16px;
+  margin: -15 0 150 240;
+}
+
+/* Search Bar */
+
+#search {
+  display: flex;
+  justify-content: center;
+  margin: ;
+}
+
+#searchbar {
+  height: 40px;
+  min-width: 600px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  color: #848482;
+}
+
+#search_by_voice {
+  height: 30px;
+  width: 30px;
+  position: absolute;
+}
+
+/* Footer */
+
+.footer {
+  display: flex;
+  width: 100%;
+  margin-top: 300;
+  justify-content: space-between;
+  background-color: #E4E4E4;
+  color: #848482;
+}

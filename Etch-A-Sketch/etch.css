@@ -1,0 +1,58 @@
+/* Etch-A-Sketch CSS */
+
+body {
+	background-color: #CCCCCC;
+}
+
+h1 { 
+	font-family: cursive;
+	color: #FF0000;
+}
+
+.header {
+	height: 150px;
+	width: 560px;
+	margin: auto;
+	background-color: #66CCFF;
+	border: 5px solid red;
+	border-bottom: none;
+	text-align: center;
+	padding: 10px;
+	position: relative;
+}
+
+
+.button {
+	display: inline-block;
+	height: 30px;
+	width: 120px;
+	background-color: #0000CC;
+	color: white;
+	border-radius: 10px;
+	text-align: center;
+}
+
+.button:hover {
+	background-color: #CCFFFF;
+	color: #000099;
+}
+
+#rainbow:hover {
+	background-color: red;
+	color: yellow;
+}
+
+#black:hover {
+	background-color: black;
+	color: gray;
+}
+
+.container {
+	text-align: center;
+	height: 480px;
+	width: 95%;
+	border: 5px solid red;
+	border-radius: 30px;
+	background-color: black;
+	position: absolute;
+}

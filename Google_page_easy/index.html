@@ -1,60 +1,51 @@
-<!-- Odin "Google Page" Exercise
-	https://github.com/egdevelops/Odin-->
-
-<!DOCTYPE html>
+<!-- "Google Page" https://github.com/egg-develops/Odin-->
+<DOCTYPE! html>
 <html>
-	<head>
-	<title>"Google Home Page"</title>
-    	<meta charset="UTF-8"/>
-    	<link type="text/css" rel="stylesheet" href="stylesheet.css" media:"all"/>
-    	<link type="text/css" rel="stylesheet" href="reset.css" media:"all"/>
-  	</head>
-	
-	<body>
-		<div id="wrapper"
-		<div id="header">
-        			<ul class="navbar">
-          				<li>Ermias</li>
-    		  			<li><a href="#">Gmail</a></li>
-    		  			<li><a href="#">Images</a></li>
-    		  			<li><a href="#"><img src="http://bit.ly/1NHEwTW" alt="Google Apps"</a></li>
-    		  			<li><a href="#"><img src=" " alt="Google Notifications"</a></li>
-    		  			<li><a href="#"><img src=" " alt="Google Account"</a></li>
-    	 			</ul>
-      		</div>
-    		
-    		<div id="section">
-      		<div id="google_logo">
-        		<img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo"/>
-      		</div>
-      		
-      		<div id="search_bar">
-        		<input type="text"/>
-      		</div>
-      		
-      		<div class="buttons">
-			<input class="button" id="google_search" value="Google Search" type="submit"/>
-        		<input class="button" id="google_search" value="I'm Feeling Lucky" type="submit"/>
-      		</div>
-    		</div>
-    		
-    		<div id="footer">
-			<div id="left_footer">
-        			<ul>
-          				<li class="lf"><a href="#">Advertising</a></li>
-          				<li class="lf"><a href="#">Business</a></li>
-          				<li class="lf"><a href="#">About</a></li>
-        			</ul>
-      			</div>
-      			
-      			<div id="right_footer">
-        			<ul>
-          				<li class="rf"><a href="#">Privacy</a></li>
-          				<li class="rf"><a href="#">Terms</a></li>
-          				<li class="rf"><a href="#">Settings</a></li>
-          				<li class="rf"><a href="#">Use Google.ch</a></li>
-        			</ul>
-      			</div>
-		</div>
-  	</body>
+
+<head>
+  <meta charset="UTF-8">
+  <link type="text/css" rel="stylesheet" href="css/stylesheet.css">
+  <title>Google Home Page</title>
+</head>
+
+<body>
+  <div class="navbar">
+    <ul>
+      <li id="Ermias">Ermias</li>
+      <li><a href="Gmail">Gmail</a></li>
+      <li><a href="Images">Images</a></li>
+      <li><a href=""><img id="google_apps" src="css/google_apps.png"></a></li>
+      <li><a href=""><img id="notifications_bell" src="css/notifications_bell.jpg"></a></li>
+      <li><img id="Account" src="css/account.jpg"></li> 
+    </ul>
+  </div>
+
+  <div class="googlelogo">
+    <img src="css/google_logo.png">
+    <div id="sub-logo">Switzerland</div>
+  </div>  
+
+  <div id="search">
+    <input id="searchbar" value=" Search Google or type URL"> 
+    <a href=""><img id="search_by_voice" src="css/search_by_voice.png"></a>
+  </div>
+
+  <div class="footer">
+    <div id="left">
+      <ul>
+        <li>Advertising</li>
+        <li>Business</li>
+        <li>About</li>
+      </ul>
+    </div>
+    <div id="right">
+      <ul>
+        <li>Privacy</li>
+        <li>Terms</li>
+        <li>Settings</li>
+      </ul>
+    </div>
+  </div>
+
+</body>
 </html>
