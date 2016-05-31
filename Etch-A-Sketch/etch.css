@@ -6,34 +6,36 @@ body {
 
 h1 { 
 	font-family: cursive;
-	color: #FF0000;
+	color: gray;
 }
 
-.header {
+#header {
 	height: 150px;
-	width: 560px;
+	width: 600px;
 	margin: auto;
+	padding-bottom: 10px;
 	background-color: #66CCFF;
-	border: 5px solid red;
+	border: 5px solid gray;
+	border-radius: 20%;
 	border-bottom: none;
 	text-align: center;
-	padding: 10px;
-	position: relative;
+	position: relative; /* ??? */
 }
 
 
 .button {
 	display: inline-block;
 	height: 30px;
-	width: 120px;
+	width: 110px;
 	background-color: #0000CC;
-	color: white;
+	color: gray;
+	border-color: white;
 	border-radius: 10px;
 	text-align: center;
 }
 
 .button:hover {
-	background-color: #CCFFFF;
+	background-color: white;
 	color: #000099;
 }
 
@@ -47,12 +49,18 @@ h1 {
 	color: gray;
 }
 
-.container {
+#container {
 	text-align: center;
 	height: 480px;
 	width: 95%;
-	border: 5px solid red;
-	border-radius: 30px;
-	background-color: black;
+	border: 2px solid gray;
+	border-radius: 5px;
+	background-color: none;
 	position: absolute;
+	margin: auto;
+}
+
+.squares {
+	background-color: white;
+	float: left;
 }
